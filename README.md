@@ -36,9 +36,3 @@
 **Contacto / Autor**:
 - Repositorio: `Traductores-de-lenguaje-II` (propietario: ALEJANDRO914109)
 
----
-
-Si quieres, puedo:
-- Añadir un ejemplo de entrada y salida paso a paso.
-- Crear un `requirements.txt` si me dices las dependencias.
-- Añadir instrucciones detalladas para ejecutar cada script.
