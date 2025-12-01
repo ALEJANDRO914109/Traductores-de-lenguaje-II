@@ -144,15 +144,7 @@ while pila_codigos_consumo:
 # --- 6. IMPRESIÓN DEL AST ---
 if ast_final:
     imprime_ast(ast_final)
-    codigo_ensamblador_emu8086 = ast_final.generar_codigo()
     
-    # Guarda el archivo para que lo puedas abrir en emu8086
-    nombre_archivo = "output_emu8086.asm"
-    with open(nombre_archivo, "w") as f:
-        f.write(codigo_ensamblador_emu8086)
-        
-    print("\n✅ Generación de Código Ensamblador Completada.")
-    print(f"El código ha sido guardado en {nombre_archivo} para emu8086.")
 
 
 
